@@ -1,7 +1,7 @@
 // Q1 sol
 const parent={
-    firstName: "Abhishek",
-    lastName: "Mahto",
+    firstName: "Avik",
+    lastName: "Sharma",
 
     fullnames(){
         return (this.firstName + " " + this.lastName)
@@ -20,14 +20,14 @@ function Student(name,age){
     this.age = age;
 }
 //creating an object of type student
-let student1 = new Student('John',32)
-let student2 = new Student('Mary',32)
+let student1 = new Student('Ram',32)
+let student2 = new Student('Sham',32)
 
 console.log(student1);
 console.log(student2);
 
 //adding property to student1 instance dynamically
-student1.sports = 'Cricket';
+student1.sports = 'Football';
 
 //adding property to the prototype of the Student
 //this would add the gender property to all the 
@@ -39,7 +39,7 @@ Student.prototype.gender = null
 // initialized but the gender property would also 
 //be attached to it and assigned as null because 
 //of the above mentioned line of code.
-let student3 = new Student('Anna',26)
+let student3 = new Student('Aman',26)
 
 
 
